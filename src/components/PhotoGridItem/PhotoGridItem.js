@@ -5,7 +5,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
   return (
     <article>
       <Anchor href={`/photos/${id}`}>
-        <Image src={src.replace(".jpg", "@2x.avif")} />
+        <Image src={src.replace(".jpg", "@2x.avif")} alt={alt} />
       </Anchor>
       <Tags>
         {tags.map((tag) => (

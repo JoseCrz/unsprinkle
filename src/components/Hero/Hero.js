@@ -27,7 +27,10 @@ function HeroImage() {
         type="image/avif"
         srcSet="/images/hero-img.avif 1x, /images/hero-img@2x.avif 2x, /images/hero-img@3x.avif 3x"
       />
-      <Img srcSet="/images/hero-img.jpg 1x, /images/hero-img@2x.jpg 2x, /images/hero-img@3x.jpg 3x" />
+      <Img
+        srcSet="/images/hero-img.jpg 1x, /images/hero-img@2x.jpg 2x, /images/hero-img@3x.jpg 3x"
+        alt="A cat with blue eyes in a dark background staring right at the user"
+      />
     </picture>
   );
 }
